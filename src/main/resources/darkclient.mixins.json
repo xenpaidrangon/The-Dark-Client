@@ -11,5 +11,6 @@ public class DarkClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         LOGGER.info("The Dark Client Loaded - Welcome Dark!");
+        HudOverlay.register();
     }
 }
