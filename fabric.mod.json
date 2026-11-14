@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "darkclient",
+  "version": "${version}",
+  "name": "The Dark Client",
+  "description": "Best PvP Client by Dark",
+  "authors": ["Dark"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/darkclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.darkclient.DarkClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
